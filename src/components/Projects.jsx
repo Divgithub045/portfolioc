@@ -6,16 +6,16 @@ import githubLogo from "../assets/github-logo.svg";
 
 const projects = [
   {
-    title: "Project One",
-    description: "A brief description of your first project.",
+    title: "BlinkMart - Ecommerce",
+    description: "BlinkMart is a dynamic e-commerce platform designed for smooth online shopping and efficient admin control. Users can register, log in, browse products with images and details, manage their cart, and place or track orders. Admins can manage products, users, and update order statuses through a dedicated dashboard. The frontend is built using HTML, CSS, JavaScript, Bootstrap, and FontAwesome for a responsive and appealing UI. PHP handles backend logic, while AJAX enables real-time updates without reloading pages. MySQL is used for storing data, with key tables like Users, Products, Orders, and OrderItems. Relationships include one-to-many (users to orders) and many-to-many (orders to products). The project runs locally using XAMPP with Apache and MySQL services. To install, clone the repo, import the SQL file, configure DB credentials, and run on",
     image: project1,
-    github: "https://github.com/yourusername/project-one",
+    github: "https://github.com/Divgithub045/Blinkmart-",
   },
   {
-    title: "Project Two",
-    description: "A brief description of your second project.",
+    title: "HomeValuator",
+    description: "House Price Predictor is a machine learning web application that estimates house prices based on user-input features. It uses historical housing data to train a regression model for accurate prediction",
     image: project2,
-    github: "https://github.com/yourusername/project-two",
+    github: "https://github.com/Divgithub045",
   },
   // Add more projects as needed
 ];
