@@ -9,7 +9,7 @@ const Contact = () => (
       Reach out to me!
     </p>
     <div className="contact-details">
-      <a href="mailto:your.email@example.com" className="contact-link">
+      <a href="mailto:divyanshsinghnrj@gmail.com" className="contact-link">
         📧 divyanshsinghnrj@gmail.com
       </a>
       <div className="contact-socials">
