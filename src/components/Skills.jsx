@@ -8,7 +8,13 @@ import pythonLogo from "../assets/python-logo.svg";
 import figmaLogo from "../assets/figma-logo.svg";
 import htmlLogo from "../assets/html-logo.svg";
 import cssLogo from "../assets/css-logo.svg";
-// import jsLogo from "assets/js-logo.svg";
+import jsLogo from  '../assets/javascript-logo.svg'
+import gitLogo from '../assets/git-logo.svg'
+import sqlLogo from '../assets/mysql-logo.svg'
+import nextlogo from '../assets/nextjs-logo.svg'
+import postlogo from '../assets/postman-logo.svg'
+import phplogo from '../assets/php-logo.svg'
+
 
 const skills = [
   { name: "React", logo: reactLogo },
@@ -19,7 +25,15 @@ const skills = [
   { name: "Figma", logo: figmaLogo },
   { name: "HTML", logo: htmlLogo },
   { name: "CSS", logo: cssLogo },
-  // { name: "JavaScript", logo: jsLogo },
+  { name: "JavaScript", logo: jsLogo },
+  { name: "Git", logo: gitLogo },
+  { name: "MySQL", logo: sqlLogo },
+  { name: "Next JS", logo: nextlogo },
+  { name: "PHP", logo: phplogo },
+  { name: "Postman", logo: postlogo },
+  
+
+
 ];
 
 const Skills = () => (

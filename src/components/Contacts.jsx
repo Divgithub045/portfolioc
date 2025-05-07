@@ -15,6 +15,7 @@ const Contact = () => (
       <div className="contact-socials">
         <a href="https://github.com/Divgithub045" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://www.linkedin.com/in/divyansh-singh-61aa02284/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://leetcode.com/u/Div_lc/" target="_blank" rel="noopener noreferrer">LeetCode</a>
       </div>
     </div>
     {/* Optional: Simple contact form */}
