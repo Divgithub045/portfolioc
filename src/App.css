@@ -68,11 +68,12 @@ main {
 }
 
 .profile-photo {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
+  border-width: 0.5px;
   box-shadow: 0 4px 32px #00ffe744;
-  border: 3px solid #00ffe7;
+  border: 3px solid #49d7f0;
   object-fit: cover;
   animation: float 3s infinite alternate;
 }
@@ -284,3 +285,31 @@ footer {
   background: #00bfae;
 }
 
+.section {
+  color: #ffffff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.entry {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 5px 0;
+}
+
+.date {
+  font-style: italic;
+  font-size: 14px;
+  margin: 0;
+}

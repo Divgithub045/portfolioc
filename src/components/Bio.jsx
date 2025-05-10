@@ -12,9 +12,20 @@ const Bio = () => (
         I love building futuristic, user-friendly applications with a classic touch. 
         Let's create something amazing together!
       </p>
-      <b>B.Tech CSE 2027 Jaypee Institute Of Information Technology, Noida</b>
-      <br /> <br />
-      <b>Core Team Google Developer Groups, JIIT Noida</b>
+      <div className="section">
+      <div className="entry">
+        <h3 className="title">B.Tech in Computer Science and Engineering</h3>
+        <p className="subtitle">Jaypee Institute of Information Technology, Noida</p>
+        <p className="date">2023 – 2027</p>
+      </div>
+
+      <div className="entry">
+        <h3 className="title">Core Team Member</h3>
+        <p className="subtitle">Google Developer Groups, JIIT Noida</p>
+        <p className="date">2024 – Present</p>
+      </div>
+    </div>
+
     </div>
   </section>
 );
