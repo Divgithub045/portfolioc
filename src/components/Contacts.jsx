@@ -9,8 +9,8 @@ const Contact = () => (
       Reach out to me!
     </p>
     <div className="contact-details">
-      <a href="mailto:divyanshsinghnrj@gmail.com" className="contact-link">
-        📧 divyanshsinghnrj@gmail.com
+      <a href="mailto:querry@divyanshsingh.xyz" className="contact-link">
+        📧 querry@divyanshsingh.xyz
       </a>
       <div className="contact-socials">
         <a href="https://github.com/Divgithub045" target="_blank" rel="noopener noreferrer">GitHub</a>
