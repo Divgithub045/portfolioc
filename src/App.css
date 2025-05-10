@@ -264,25 +264,49 @@ footer {
 }
 .contact-form input,
 .contact-form textarea {
-  padding: 0.8rem;
-  border-radius: 8px;
-  border: 1px solid #2c3440;
-  background: #181c24;
-  color: #fff;
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #3a3f4b;
+  background-color: #1e242e;
+  color: #f0f0f0;
   font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #00ffe7;
+  box-shadow: 0 0 0 2px rgba(0, 255, 231, 0.4);
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
 .contact-form button {
-  background: #00ffe7;
-  color: #232a34;
+  background-color: #00ffe7;
+  color: #1c1f26;
   border: none;
-  padding: 0.8rem;
-  border-radius: 8px;
-  font-weight: bold;
+  padding: 0.9rem 1.2rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 1rem;
 }
+
 .contact-form button:hover {
-  background: #00bfae;
+  background-color: #00bfae;
+  transform: translateY(-2px);
+}
+
+.contact-form button:active {
+  transform: translateY(0);
 }
 
 .section {

@@ -18,15 +18,13 @@ const Contact = () => (
         <a href="https://leetcode.com/u/Div_lc/" target="_blank" rel="noopener noreferrer">LeetCode</a>
       </div>
     </div>
-    {/* Optional: Simple contact form */}
-    {/* 
-    <form className="contact-form" onSubmit={e => e.preventDefault()}>
+    {/* <form className="contact-form" onSubmit={e => e.preventDefault()}>
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
       <textarea placeholder="Your Message" required />
       <button type="submit">Send</button>
-    </form>
-    */}
+    </form> */}
+   
   </section>
 );
 
