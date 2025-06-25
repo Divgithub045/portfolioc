@@ -107,10 +107,11 @@ main {
 /* Project Grid */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); /* ⬅️ Increased from 270px to 480px */
   gap: 2rem;
   width: 100%;
 }
+
 
 .project-card {
   background: #232a34;
@@ -336,4 +337,22 @@ footer {
   font-style: italic;
   font-size: 14px;
   margin: 0;
+}
+.project-card {
+  position: relative;
+  transition: opacity 0.3s ease;
+}
+
+/* When project is in progress, dim entire card */
+.in-progress-card {
+  opacity: 0.3;
+  pointer-events: none; /* Optional: disables interaction */
+}
+
+/* But keep the title fully visible */
+.in-progress-card .project-title {
+  opacity: 1 !important;
+  z-index: 2;
+  color: #ffffff;
+  position: relative;
 }
