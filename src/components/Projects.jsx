@@ -8,6 +8,14 @@ import githubLogo from "../assets/github-logo.svg";
 
 const projects = [
   {
+    title: "Modular ML Web App for Student Math Score Prediction (AWS Deployed)",
+    description: "Built a full-stack machine learning application using Flask to predict student math scores based on demographic and academic inputs. The project followed a highly modular code architecture, separating concerns into dedicated files and packages for data ingestion, preprocessing, model training, and prediction, ensuring scalability and maintainability. Implemented hyperparameter tuning across six regression algorithms (e.g., XGBoost, CatBoost) using GridSearchCV, testing over 1000+ parameter combinations to optimize model performance (achieving an R² score of 0.91). Developed a responsive front-end form to collect user input and return real-time predictions. Integrated CI/CD automation with AWS CodePipeline, configured environment setup with .ebextensions and WSGI, and deployed the application on AWS Elastic Beanstalk with production-ready dependency and environment management \n Live at http://student-env.eba-puvqpaf8.eu-north-1.elasticbeanstalk.com/predictdata",
+    image: project2,
+    github: "https://github.com/Divgithub045/project",
+    status: "completed",
+    
+  },
+  {
     title: "Store Sales Predictor (Random Forest Regressor)",
     description: "Built an end-to-end machine learning solution to forecast retail store sales using time-series data. The project integrated data from multiple sources and applied robust preprocessing, feature engineering, and model training techniques to achieve high prediction accuracy \n\n MAE: 70.49883467605048  RMSE: 338.9014931811827   R² Score: 0.911497806648827 ",
     image : project3,
@@ -20,14 +28,6 @@ const projects = [
     image: project1,
     github: "https://github.com/Divgithub045/Blinkmart-",
     status: "completed",
-  },
-  {
-    title: "HomeValuator",
-    description: "House Price Predictor is a machine learning web application that estimates house prices based on user-input features. It uses historical housing data to train a regression model for accurate prediction",
-    image: project2,
-    github: "https://github.com/Divgithub045",
-    status: "completed",
-    
   },
   {
     title: "SVM-Based Sports Personality Image Classifier",
