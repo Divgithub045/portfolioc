@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import project1 from "../assets/project1.jpg";
-import project2 from "../assets/project2.jpg";
+import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png"
 import inprogress from "../assets/inprogress.png"
 import githubLogo from "../assets/github-logo.svg";
