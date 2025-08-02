@@ -18,11 +18,15 @@ const Bio = () => (
         <p className="subtitle">Jaypee Institute of Information Technology, Noida</p>
         <p className="date">2023 – 2027</p>
       </div>
-
+        <div className="entry">
+        <h3 className="title">Team Lead</h3>
+        <p className="subtitle">Google Developer Groups, JIIT Noida</p>
+        <p className="date">2025 – Present</p>
+      </div>
       <div className="entry">
         <h3 className="title">Core Team Member</h3>
         <p className="subtitle">Google Developer Groups, JIIT Noida</p>
-        <p className="date">2024 – Present</p>
+        <p className="date"> 2024 - 2025 </p>
       </div>
     </div>
 
