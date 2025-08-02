@@ -4,9 +4,18 @@ import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png"
 import inprogress from "../assets/inprogress.png"
+import project4 from "../assets/project4.png"
 import githubLogo from "../assets/github-logo.svg";
 
 const projects = [
+  {
+    title: "Chest X-Ray Imaging for Multi-Disease Prediction",
+    description: "Processed 10K+ labeled chest X-ray images; applied CNN with TensorFlow/Keras for multi-label classification of COVID-19, Pneumonia, and Normal cases with 94% test accuracy.Implemented real-time prediction interface using Streamlit; integrated image preprocessing and model inference pipeline with 1.2s average response time \n chest-x-ray-imaging.streamlit.app",
+    image: project4,
+    github: "https://github.com/Divgithub045",
+    status: "completed",
+  },
+
   {
     title: "Modular ML Web App for Student Math Score Prediction (AWS Deployed)",
     description: "Built a full-stack machine learning application using Flask to predict student math scores based on demographic and academic inputs. The project followed a highly modular code architecture, separating concerns into dedicated files and packages for data ingestion, preprocessing, model training, and prediction, ensuring scalability and maintainability. Implemented hyperparameter tuning across six regression algorithms (e.g., XGBoost, CatBoost) using GridSearchCV, testing over 1000+ parameter combinations to optimize model performance (achieving an R² score of 0.91). Developed a responsive front-end form to collect user input and return real-time predictions. Integrated CI/CD automation with AWS CodePipeline, configured environment setup with .ebextensions and WSGI, and deployed the application on AWS Elastic Beanstalk with production-ready dependency and environment management \n Live at http://student-env.eba-puvqpaf8.eu-north-1.elasticbeanstalk.com/predictdata",
@@ -29,14 +38,6 @@ const projects = [
     github: "https://github.com/Divgithub045/Blinkmart-",
     status: "completed",
   },
-  {
-    title: "SVM-Based Sports Personality Image Classifier",
-    description: "",
-    image: inprogress,
-    github: "https://github.com/Divgithub045",
-    status: "in-progress",
-  },
-
   // Add more projects as needed
 ];
 

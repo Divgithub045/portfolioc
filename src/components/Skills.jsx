@@ -8,12 +8,18 @@ import pythonLogo from "../assets/python-logo.svg";
 import figmaLogo from "../assets/figma-logo.svg";
 import htmlLogo from "../assets/html-logo.svg";
 import cssLogo from "../assets/css-logo.svg";
-import jsLogo from  '../assets/javascript-logo.svg'
-import gitLogo from '../assets/git-logo.svg'
-import sqlLogo from '../assets/mysql-logo.svg'
-import nextlogo from '../assets/nextjs-logo.svg'
-import postlogo from '../assets/postman-logo.svg'
-import phplogo from '../assets/php-logo.svg'
+import jsLogo from  '../assets/javascript-logo.svg';
+import gitLogo from '../assets/git-logo.svg';
+import sqlLogo from '../assets/mysql-logo.svg';
+import nextlogo from '../assets/nextjs-logo.svg';
+import postlogo from '../assets/postman-logo.svg';
+import phplogo from '../assets/php-logo.svg';
+import pandaslogo from '../assets/Pandas.svg';
+import TensorFlowlogo from '../assets/TensorFlow.svg';
+import keraslogo from '../assets/Keras.svg';
+import streamlitlogo from '../assets/Streamlit.svg'
+import Jupyter from '../assets/Jupyter.svg'
+
 
 
 const skills = [
@@ -31,8 +37,13 @@ const skills = [
   { name: "Next JS", logo: nextlogo },
   { name: "PHP", logo: phplogo },
   { name: "Postman", logo: postlogo },
-  
+  { name: "Jupyter Notebook", logo: Jupyter },
+  {name : "Pandas",logo:pandaslogo},
+  { name: "Tensor Flow", logo: TensorFlowlogo },
+  { name: "Keras", logo: keraslogo},
+  { name: "Streamlit", logo: streamlitlogo },
 
+  
 
 ];
 
